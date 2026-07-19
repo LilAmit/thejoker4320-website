@@ -523,8 +523,10 @@ body.lb-open { overflow: hidden; }
   .nav-toggle { display: flex; z-index: 1001; }
   .about-grid { grid-template-columns: 1fr; }
   .robot-grid { grid-template-columns: 1fr; }
-  .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 2rem; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
+  /* Brand block (logo, tagline, FIRST + school logos) drops below the link
+     columns, so Explore / Contact / Follow come first on small screens. */
+  .footer-brand { order: 1; grid-column: 1 / -1; }
   .tl-line { left: 20px; }
   .tl-item, .tl-item:nth-child(even) { width: 100%; left: 0; text-align: left; padding-left: 3.4rem; padding-right: 0; }
   .tl-item:nth-child(odd) { text-align: left; }
