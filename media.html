@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Photos from The Joker #4320's 2026 season, FIRST Robotics Competition team from Petah Tikva, Israel." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="icon" type="image/jpeg" href="TheJokerLogo.jpg" />
+  <title>Media | The Joker #4320</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="media">
+
+  <!-- Shared header, injected by js/layout.js -->
+  <div id="site-header"></div>
+
+  <main>
+    <!-- ============ MEDIA GALLERY ============ -->
+    <section class="section media" id="media">
+      <div class="section-head reveal">
+        <span class="suit-badge red">&hearts;</span>
+        <h2 class="section-title">Our <span class="red">2026 Season</span></h2>
+        <p class="section-sub">Moments from the pit, the field and everything in between. Click any photo to open it larger.</p>
+      </div>
+
+      <div class="gallery">
+        <div class="shot-wrap reveal"><button class="shot" type="button"><img src="JokerPhotos/Photo1.jpeg"  alt="The Joker #4320, 2026 season photo 1"  loading="lazy" /></button></div>
+        <div class="shot-wrap reveal"><button class="shot" type="button"><img src="JokerPhotos/Photo2.jpeg"  alt="The Joker #4320, 2026 season photo 2"  loading="lazy" /></button></div>
+        <div class="shot-wrap reveal"><button class="shot" type="button"><img src="JokerPhotos/Photo3.jpeg"  alt="The Joker #4320, 2026 season photo 3"  loading="lazy" /></button></div>
+        <div class="shot-wrap reveal"><button class="shot" type="button"><img src="JokerPhotos/Photo4.jpeg"  alt="The Joker #4320, 2026 season photo 4"  loading="lazy" /></button></div>
+        <div class="shot-wrap reveal"><button class="shot" type="button"><img src="JokerPhotos/Photo5.jpeg"  alt="The Joker #4320, 2026 season photo 5"  loading="lazy" /></button></div>
+        <div class="shot-wrap reveal"><button class="shot" type="button"><img src="JokerPhotos/Photo6.jpeg"  alt="The Joker #4320, 2026 season photo 6"  loading="lazy" /></button></div>
+        <div class="shot-wrap reveal"><button class="shot" type="button"><img src="JokerPhotos/Photo7.jpeg"  alt="The Joker #4320, 2026 season photo 7"  loading="lazy" /></button></div>
+        <div class="shot-wrap reveal"><button class="shot" type="button"><img src="JokerPhotos/Photo8.jpeg"  alt="The Joker #4320, 2026 season photo 8"  loading="lazy" /></button></div>
+        <div class="shot-wrap reveal"><button class="shot" type="button"><img src="JokerPhotos/Photo9.jpeg"  alt="The Joker #4320, 2026 season photo 9"  loading="lazy" /></button></div>
+        <div class="shot-wrap reveal"><button class="shot" type="button"><img src="JokerPhotos/Photo10.jpeg" alt="The Joker #4320, 2026 season photo 10" loading="lazy" /></button></div>
+        <div class="shot-wrap reveal"><button class="shot" type="button"><img src="JokerPhotos/Photo11.jpeg" alt="The Joker #4320, 2026 season photo 11" loading="lazy" /></button></div>
+        <div class="shot-wrap reveal"><button class="shot" type="button"><img src="JokerPhotos/Photo12.jpeg" alt="The Joker #4320, 2026 season photo 12" loading="lazy" /></button></div>
+        <div class="shot-wrap reveal"><button class="shot" type="button"><img src="JokerPhotos/Photo13.jpeg" alt="The Joker #4320, 2026 season photo 13" loading="lazy" /></button></div>
+        <div class="shot-wrap reveal"><button class="shot" type="button"><img src="JokerPhotos/Photo14.jpeg" alt="The Joker #4320, 2026 season photo 14" loading="lazy" /></button></div>
+        <div class="shot-wrap reveal"><button class="shot" type="button"><img src="JokerPhotos/Photo15.jpeg" alt="The Joker #4320, 2026 season photo 15" loading="lazy" /></button></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Shared footer, injected by js/layout.js -->
+  <div id="site-footer"></div>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+    <img class="lb-img" id="lbImg" src="" alt="" />
+    <button class="lb-btn lb-close" id="lbClose" type="button" aria-label="Close">&times;</button>
+    <button class="lb-btn lb-prev"  id="lbPrev"  type="button" aria-label="Previous photo">&#10094;</button>
+    <button class="lb-btn lb-next"  id="lbNext"  type="button" aria-label="Next photo">&#10095;</button>
+    <span class="lb-counter" id="lbCounter">1 / 15</span>
+  </div>
+
+  <script src="js/layout.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>

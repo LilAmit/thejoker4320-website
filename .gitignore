@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+._*
+
+# Local editor / tooling settings
+.claude/
+.vscode/
+.idea/
+
+# Logs & temp
+*.log
+Thumbs.db

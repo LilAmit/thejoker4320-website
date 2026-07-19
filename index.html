@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Joker #4320, FIRST Robotics Competition team from Petah Tikva, Israel. Your winning card." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="icon" type="image/jpeg" href="TheJokerLogo.jpg" />
+  <title>The Joker #4320 | FRC Team</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="home">
+
+  <!-- ============ LOADER (home page only) ============ -->
+  <div class="loader" id="loader">
+    <div class="loader-card">
+      <div class="loader-card-inner">
+        <div class="loader-face loader-front">
+          <span class="corner tl">J</span>
+          <span class="pip">&#9814;</span>
+          <span class="corner br">J</span>
+        </div>
+        <div class="loader-face loader-back">
+          <span class="loader-back-pattern"></span>
+        </div>
+      </div>
+    </div>
+    <p class="loader-text">DEALING&hellip;</p>
+  </div>
+
+  <!-- Shared header, injected by js/layout.js -->
+  <div id="site-header"></div>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero-glow" id="heroGlow"></div>
+
+      <div class="hero-content">
+        <p class="hero-kicker reveal">FIRST&reg; Robotics Competition &bull; Petah Tikva, Israel</p>
+        <h1 class="hero-title">
+          <span class="joker-line reveal" style="--d:.05s">
+            <span class="outline-flip">JOKER</span>
+            <img src="CroppedJokerLogo2.PNG" class="joker-hat" alt="" aria-hidden="true" />
+          </span>
+          <span class="hero-num reveal" style="--d:.15s">#4320</span>
+        </h1>
+        <p class="hero-tagline reveal" style="--d:.25s">Your winning card.</p>
+      </div>
+    </section>
+
+    <!-- ============ ROBOT ============ -->
+    <section class="section robot" id="robot">
+      <div class="section-head reveal">
+        <span class="suit-badge red">&diams;</span>
+        <h2 class="section-title">Our 2026 Robot: <span class="red">REBUILT</span></h2>
+        <p class="section-sub">REBUILT presented by Haas. The hand we played this season.</p>
+      </div>
+
+      <div class="robot-photo reveal">
+        <img src="JokerPhotos/Photo3.jpeg" alt="The Joker #4320's 2026 competition robot on the field" />
+      </div>
+
+      <div class="robot-grid">
+        <div class="robot-feature reveal" style="--d:0s">
+          <span class="robot-index">01</span>
+          <h3>Our Autonomy</h3>
+          <p>An autonomous routine that drove the robot on its own through the opening seconds of the match. No driver, no hesitation.</p>
+        </div>
+        <div class="robot-feature reveal" style="--d:.12s">
+          <span class="robot-index">02</span>
+          <h3>Down the Trenches</h3>
+          <p>Low and compact enough to run straight down the trenches, keeping our lines open when the field got crowded.</p>
+        </div>
+        <div class="robot-feature reveal" style="--d:.24s">
+          <span class="robot-index">03</span>
+          <h3>Through the Bump</h3>
+          <p>A drivetrain with the clearance and grip to take the bump head-on and keep driving without losing momentum.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ACHIEVEMENTS, OUR WINNING HAND ============ -->
+    <section class="section timeline-section" id="achievements">
+      <div class="section-head reveal">
+        <span class="suit-badge">&clubs;</span>
+        <h2 class="section-title">Our <span class="red">Winning Hand</span></h2>
+        <p class="section-sub">A few of the moments we're proud of on and off the field.</p>
+      </div>
+
+      <div class="timeline" id="timeline">
+        <div class="tl-line"><span class="tl-fill" id="tlFill"></span></div>
+
+        <div class="tl-item reveal">
+          <span class="tl-dot"></span>
+          <span class="tl-year">2012</span>
+          <div class="tl-card">
+            <h3>The Deal Begins</h3>
+            <p>The Joker #4320 is founded in Petah Tikva and joins the FIRST family as a rookie team.</p>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <span class="tl-dot"></span>
+          <span class="tl-year">2013</span>
+          <div class="tl-card">
+            <h3>Regional Champions</h3>
+            <p>An early breakout season with a regional championship. The Joker means business.</p>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <span class="tl-dot"></span>
+          <span class="tl-year">2017</span>
+          <div class="tl-card">
+            <h3>District Event Winners + Creativity Award</h3>
+            <p>At the Tel-Aviv event we finished 3rd in quals (14&ndash;3), won the event, and took the Creativity Award sponsored by Xerox.</p>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <span class="tl-dot"></span>
+          <span class="tl-year">2025</span>
+          <div class="tl-card">
+            <h3>District Championship Finalists</h3>
+            <p>REEFSCAPE season, finalists at the FIRST Israel District Championship.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Shared footer, injected by js/layout.js -->
+  <div id="site-footer"></div>
+
+  <script src="js/layout.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
