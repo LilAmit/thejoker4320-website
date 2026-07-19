@@ -65,6 +65,14 @@
       navToggle.classList.remove("open");
       navLinks.classList.remove("open");
     }));
+
+    // tap anywhere outside the drawer to close it
+    document.addEventListener("click", (e) => {
+      if (!navLinks.classList.contains("open")) return;
+      if (navLinks.contains(e.target) || navToggle.contains(e.target)) return;
+      navToggle.classList.remove("open");
+      navLinks.classList.remove("open");
+    });
   }
 
   /* ---------- HERO GLOW PARALLAX ---------- */
