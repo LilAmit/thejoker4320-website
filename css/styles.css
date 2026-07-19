@@ -540,10 +540,13 @@ body.lb-open { overflow: hidden; }
 
 /* ---- Phone refinements ---- */
 @media (max-width: 620px) {
-  /* tighten the dead space between the hero and the section below it */
-  .hero { min-height: 84vh; min-height: 84svh; padding: 6rem 1.2rem 1.5rem; }
-  .section { padding-top: 3rem; padding-bottom: 3rem; }
-  .hero-kicker { font-size: .6rem; letter-spacing: .13em; }
+  /* bigger hero type, and less dead space before the section below it */
+  .hero { min-height: 76vh; min-height: 76svh; padding: 5.5rem 1.2rem 1rem; }
+  .section { padding-top: 2.2rem; padding-bottom: 3rem; }
+  .hero-kicker { font-size: .66rem; letter-spacing: .1em; }
+  .hero-title span.outline-flip { font-size: clamp(3.8rem, 20vw, 12rem); }
+  .hero-num { font-size: 1.45rem; letter-spacing: .3em; }
+  .hero-tagline { font-size: 1.2rem; }
   .brand-text { font-size: .82rem; letter-spacing: .08em; }
   .brand-logo { height: 40px; }
   .brand-logo.big { height: 62px; }
